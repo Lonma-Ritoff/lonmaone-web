@@ -6,14 +6,13 @@ import Hero from '../components/hero'
 import Header from '../components/header'
 import ArticlePreview from '../components/article-preview'
 import classes from './index.module.css';
-import video from '../../public/static/videos/landing.mp4'
 
 class RootIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allContentfulBlogPost.edges')
     const [author] = get(this, 'props.data.allContentfulPerson.edges')
-    const videoSource = video
+    const videoSource = "https://res.cloudinary.com/dswcrbbwu/video/upload/v1619638354/projetcarrera.fr/videos/landing_bkyppb.mp4"
     return (
       <>
       <Header location={this.props.location}></Header>
