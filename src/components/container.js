@@ -5,7 +5,7 @@ export default ({ children }) => (
   <div className = 'Component-Bg' 
           style = {{ width: '100%',
                       height: 307,
-                      backgroundImage: `url('https://cdn.pixabay.com/photo/2017/01/31/17/44/highway-2025863_1280.jpg')`,
+                      backgroundImage: `url('https://res.cloudinary.com/dswcrbbwu/image/upload/v1619638792/projetcarrera.fr/videos/highway-2025863_1280_usyito.jpg')`,
                       backgroundSize: 'cover', 
                       backgroundPosition: 'center center',
                       backgroundRepeat: 'no-repeat',}}>
