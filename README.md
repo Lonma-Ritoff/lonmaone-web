@@ -1,6 +1,7 @@
 # pi-beautifulporsche-web
 
 ![build with Javascript](https://img.shields.io/badge/Build%20with-Javascript-green)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/54432ed6-52be-491e-92ff-a8383c9fa41c/deploy-status)](https://app.netlify.com/sites/projetcarrera/deploys)
 ![last commit](https://img.shields.io/github/last-commit/AnthoniMarie/pi-beautifulporsche)
 
 <!-- PROJECT LOGO -->

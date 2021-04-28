@@ -61,11 +61,12 @@ class OurProjectIndex extends React.Component {
                 </div>
               </div>
             </section>
+            <br></br>
             <section id="Services" class="content-section text-center">
               <div class="container">
                 <div class="block-heading">
                   <h2>Ou le voir</h2>
-                  <p>Directement à EPITECH !.</p>
+                  <p>Directement à EPITECH ! (photos...)</p>
                 </div>
               </div>
             </section>

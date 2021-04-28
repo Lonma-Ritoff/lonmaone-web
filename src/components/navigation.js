@@ -10,7 +10,7 @@ export default () => (
   <Navbar.Brand href="#">Projet Carrera</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
   <Navbar.Collapse id="responsive-navbar-nav">
-  <div style={{ maxWidth: 'auto', margin: 'auto auto' }}>
+  <div style={{ maxWidth: 'auto', margin: 'auto 30%' }}>
     <Nav className="mr-auto" style={{textAlign: 'center', textTransform: 'uppercase', fontSize: '14px'}}>
       <Nav.Link href="/">Accueil</Nav.Link>
       <Nav.Link href="/ourproject">Le projet</Nav.Link>
