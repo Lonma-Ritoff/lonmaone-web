@@ -7,7 +7,6 @@ class AboutIndex extends React.Component {
   render() {
     return (
       <>
-
       <Header location={this.props.location}>
         <div style={{ background: '#fff' }}>
           <div className="wrapper">
