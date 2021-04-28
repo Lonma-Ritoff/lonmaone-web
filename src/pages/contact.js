@@ -27,6 +27,16 @@ class ContactIndex extends React.Component {
                   <p className="lead">Une question ? N'hésitez pas.</p>
                 </div>
               </div>
+              <div className="row justify-content-md-center text-center">
+        <div className="col">
+          <img className="rounded mx-auto d-block" src="https://res.cloudinary.com/dswcrbbwu/image/upload/v1619642512/projetcarrera.fr/videos/IMG_2495_t8ks5k.jpg" alt="Anthoni Marie" width="400" height="400" style={{borderRadius:'5%', width:'unset'}}></img>
+          <br></br>
+          <h4>Où nous trouver ?</h4>
+          <p>Pour les étudiants d'EPITECH, n'hésitez pas à venir découvrir notre voiture directement à EPITECH Paris. Nous sommes en général très souvent au 4ème de Paritalie.</p>
+          <p>Pour d'autres questions, vous pouvez nous contacter par email à <a href="mailto:anthoni.marie@epitech.eu">cette adresse</a>.</p>
+          <p><a className="btn btn-secondary" href="https://anthoni-marie.fr" role="button">En savoir plus</a></p>
+        </div>
+      </div>
             </div>
           </section>
         <div className="row justify-content-md-center text-center">

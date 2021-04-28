@@ -66,6 +66,15 @@ class OurProjectIndex extends React.Component {
                 </div>
               </div>
             </section>
+            <section id="Services" class="content-section text-center">
+              <div class="container">
+                <div class="block-heading">
+                  <h2>Nous aider</h2>
+                  <p>Si vous aussi vous avez des idées qui pourraient améliorer notre voiture, faites nous en part ! Nous sommes à l'écoute.<br></br>Aussi, si vous voulez nous aider, partager notre site internet est déjà un grand plus, mais si vous souhaitez aller plus loin, vous pouvez aussi nous faire un petit don sur notre cagnotte PayPal (oui le projet coûte cher... Brice fait ses comptes tous les jours !!!!!, et son banquier aussi...) </p>
+                  <a href="https://paypal.me/pools/c/8yZZk3V5rY">Lien vers la cagnotte</a>
+                </div>
+              </div>
+            </section>
         </div>
         </>
       )
