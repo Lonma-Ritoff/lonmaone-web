@@ -36,7 +36,11 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful starter",
+    title: "Projet Carrera - Voiture autonome par des étudiants",
+    titleTemplate: "%s · Projet Carrera",
+    description:
+      "ProjetCarrera est un projet mené par deux étudiants d'Epitech, passionnés de voitures depuis longtemps. Le but est de réaliser une voiture autonome, basée sur un chassis de modélisme, qui peut éviter des obstacles.",
+    url: "https://www.projetcarrera.fr", // No trailing slash allowed!
   },
   pathPrefix: "/gatsby-contentful-starter",
   plugins: [
