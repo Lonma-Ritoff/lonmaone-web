@@ -12,7 +12,7 @@ class RootIndex extends React.Component {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allContentfulBlogPost.edges')
     const [author] = get(this, 'props.data.allContentfulPerson.edges')
-    const videoSource = "https://res.cloudinary.com/dswcrbbwu/video/upload/v1619638354/projetcarrera.fr/videos/landing_bkyppb.mp4"
+    const videoSource = "https://res.cloudinary.com/dswcrbbwu/video/upload/v1619640677/projetcarrera.fr/videos/ProjetCarrera.fr_-_LandingVideo_-_HEVC_-_min_mljgt9.mov"
     return (
       <>
       <Header location={this.props.location}></Header>
