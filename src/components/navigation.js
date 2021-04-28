@@ -16,11 +16,10 @@ export default () => (
       <Nav.Link href="/ourproject">Le projet</Nav.Link>
       <Nav.Link href="/news">Blog</Nav.Link>
       <Nav.Link href="/about">A propos</Nav.Link>
-      <Nav.Link href="#">Contacter</Nav.Link>
+      <Nav.Link href="mailto:anthoni.marie@epitech.eu">Contacter</Nav.Link>
     </Nav>
     </div>
   </Navbar.Collapse>
 </Navbar>
-
-        </>
+  </>
 )

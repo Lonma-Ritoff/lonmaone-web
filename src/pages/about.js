@@ -31,15 +31,15 @@ class AboutIndex extends React.Component {
           </section>
         <div className="row justify-content-md-center text-center">
         <div className="col-lg-4">
-          <img className="rounded-circle" src="https://avatars.githubusercontent.com/u/20517603?s=400&u=ab382b2ad7d777a2b4f6cf75665914f41a060e9e&v=4" alt="Anthoni Marie" width="400" height="400"></img>
+          <img className="rounded mx-auto d-block" src="https://i.imgur.com/XV8PT2o.jpg" alt="Anthoni Marie" width="150" height="150" style={{borderRadius:'5%', width:'unset'}}></img>
           <h2>Anthoni Marie</h2>
           <p>Passionné d'automobile et informatique depuis mon enfance, ce projet me tient particulièrement à coeur !</p>
           <p><a className="btn btn-secondary" href="https://anthoni-marie.fr" role="button">En savoir plus</a></p>
         </div>
         <div className="col-lg-4">
-          <img className="rounded-circle" src="https://avatars.githubusercontent.com/u/57350282?s=400&u=c2755e786dc536ff093a6508ca64f7a9e0bc0ad0&v=4" alt="Brice Toffolon" width="400" height="400"></img>
+          <img className="rounded mx-auto d-block" src="https://i.imgur.com/O2kwQ67.jpg" alt="Brice Toffolon" width="150" height="150" style={{borderRadius:'5%', width:'unset'}}></img>
           <h2>Brice Toffolon</h2>
-          <p>Desc de brice.</p>
+          <p>Féru de sport automobile depuis mon plus jeune âge, ce projet melant informatique et le monde de l'automobile. Ce projet réunit deux de mes plus grandes passions.</p>
           <p><a className="btn btn-secondary" href="https://www.linkedin.com/in/brice-toffolon/" role="button">En savoir plus</a></p>
           </div>
       </div>

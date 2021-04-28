@@ -46,7 +46,7 @@ class OurProjectIndex extends React.Component {
                   <div class="card" style={{width: "18rem"}}>
                     <div class="card-body">
                     <GiStoneCrafting size={32} />
-                      <h5 class="card-title">Basée sur du modelisme</h5>
+                      <h5 class="card-title">Basé sur du modelisme</h5>
                       <p class="card-text">xx.</p>
                     </div>
                   </div>
@@ -65,7 +65,7 @@ class OurProjectIndex extends React.Component {
             <section id="Services" class="content-section text-center">
               <div class="container">
                 <div class="block-heading">
-                  <h2>Ou le voir</h2>
+                  <h2>Le projet, en vrai</h2>
                   <p>Directement à EPITECH ! (photos...)</p>
                 </div>
               </div>
