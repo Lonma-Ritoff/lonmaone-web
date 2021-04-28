@@ -30,6 +30,7 @@ class AboutIndex extends React.Component {
             </div>
           </section>
       </div>
+      
       </>
     //   <Header location={this.props.location}>
     //     <div id='features' className='text-center'>

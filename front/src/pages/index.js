@@ -28,7 +28,7 @@ class RootIndex extends React.Component {
         <div className={classes.Content}>
                 <div className={classes.SubContent} >
                     <h1>Projet Carrera</h1>
-                    <p>Plus qu'une passion</p>
+                    <p>Découvrez dès maintenant notre projet de voiture autonome.</p>
                     <a href="/ourproject">
                       <button type="button" className="btn btn-outline-dark">En savoir plus</button>
                     </a>

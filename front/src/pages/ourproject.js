@@ -2,7 +2,8 @@ import React from 'react'
 import get from 'lodash/get'
 import Header from '../components/header'
 import SubHeader from '../components/sub-header'
-
+import { Card, CardDeck } from 'react-bootstrap';
+import { GiBrain, GiSchoolBag, GiStoneCrafting, GiCarWheel } from "react-icons/gi";
 class OurProjectIndex extends React.Component {
   render() {
 
@@ -26,15 +27,45 @@ class OurProjectIndex extends React.Component {
                     </div>
                     <p class="lead">Le projet Carrera est un projet mené par deux étudiants d'EPITECH Paris, passionnés d'automobile tous les deux et pour qui le but est de réaliser une voiture autonome, capable de se diriger sans aide humaine et capable d'éviter des obstacles.</p>
                   </div>
+
+                <div class="card-deck">
+                  <div class="card" style={{width: "18rem"}}>
+                    <div class="card-body">
+                      <GiBrain size={32} />
+                      <h5 class="card-title">Autonome</h5>
+                      <p class="card-text">xx.</p>
+                    </div>
+                  </div>
+                  <div class="card" style={{width: "18rem"}}>
+                    <div class="card-body">
+                    <GiSchoolBag size={32} />
+                      <h5 class="card-title">Par des étudiants</h5>
+                      <p class="card-text">xx.</p>
+                    </div>
+                  </div>
+                  <div class="card" style={{width: "18rem"}}>
+                    <div class="card-body">
+                    <GiStoneCrafting size={32} />
+                      <h5 class="card-title">Basée sur du modelisme</h5>
+                      <p class="card-text">xx.</p>
+                    </div>
+                  </div>
+                  <div class="card" style={{width: "18rem"}}>
+                    <div class="card-body">
+                      <GiCarWheel size={32} />
+                      <h5 class="card-title">Unique</h5>
+                      <p class="card-text">xx.</p>
+                    </div>
+                  </div>
+                  </div>
                 </div>
               </div>
             </section>
-           
             <section id="Services" class="content-section text-center">
               <div class="container">
                 <div class="block-heading">
-                  <h2>xx</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <h2>Ou le voir</h2>
+                  <p>Directement à EPITECH !.</p>
                 </div>
               </div>
             </section>
