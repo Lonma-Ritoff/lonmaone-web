@@ -33,28 +33,24 @@ class OurProjectIndex extends React.Component {
                     <div class="card-body">
                       <GiBrain size={32} />
                       <h5 class="card-title">Autonome</h5>
-                      <p class="card-text">xx.</p>
                     </div>
                   </div>
                   <div class="card" style={{width: "18rem"}}>
                     <div class="card-body">
                     <GiSchoolBag size={32} />
                       <h5 class="card-title">Par des étudiants</h5>
-                      <p class="card-text">xx.</p>
                     </div>
                   </div>
                   <div class="card" style={{width: "18rem"}}>
                     <div class="card-body">
                     <GiStoneCrafting size={32} />
                       <h5 class="card-title">Basé sur du modelisme</h5>
-                      <p class="card-text">xx.</p>
                     </div>
                   </div>
                   <div class="card" style={{width: "18rem"}}>
                     <div class="card-body">
                       <GiCarWheel size={32} />
                       <h5 class="card-title">Unique</h5>
-                      <p class="card-text">xx.</p>
                     </div>
                   </div>
                   </div>
@@ -72,31 +68,7 @@ class OurProjectIndex extends React.Component {
             </section>
         </div>
         </>
-      //   <Header location={this.props.location}>
-      //     <div id='features' className='text-center'>
-      //   <div className='container'>
-      //     <div className='col-md-10 col-md-offset-1 section-title'>
-      //       <h2>Features</h2>
-      //     </div>
-      //     <div className='row'>
-      //             <div className='col-xs-6 col-md-3'>
-      //               <h3>test</h3>
-      //               <p>efefef</p>
-      //             </div>
-      //     </div>
-      //   </div>
-      // </div>
-      //   </Header>
       )
-    // return (
-    //   <Header location={this.props.location}>
-    //     <div style={{ background: '#fff' }}>
-    //       <div className="wrapper">
-    //         <h2 className="section-headline">Le projet</h2>
-    //       </div>
-    //     </div>
-    //   </Header>
-    // )
   }
 }
 export default OurProjectIndex
