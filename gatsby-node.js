@@ -26,16 +26,16 @@ exports.createPages = ({ graphql, actions }) => {
           reject(result.errors)
         }
 
-        const posts = result.data.allContentfulBlogPost.edges
-        posts.forEach(post => {
-          createPage({
-            path: `/news/${post.node.slug}/`,
-            component: blogPost,
-            context: {
-              slug: post.node.slug,
-            },
-          })
-        })
+        // const posts = result.data.allContentfulBlogPost.edges
+        // posts.forEach(post => {
+        //   createPage({
+        //     path: `/news/${post.node.slug}/`,
+        //     component: blogPost,
+        //     context: {
+        //       slug: post.node.slug,
+        //     },
+        //   })
+        //commented this code because we disabled the blog, we use the instagram feed now.. })
       })
     )
   })
