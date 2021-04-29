@@ -43,7 +43,7 @@ class AboutIndex extends React.Component {
         <div className="col-lg-4">
           <img className="rounded mx-auto d-block" src="https://res.cloudinary.com/dswcrbbwu/image/upload/v1619695453/projetcarrera.fr/images/bricetoffolon_puhhnv_jdgtv8.jpg" alt="Brice Toffolon" width="150" height="150" style={{borderRadius:'5%', width:'unset'}}></img>
           <h2>Brice Toffolon</h2>
-          <p>Féru de sport automobile depuis mon plus jeune âge, ce projet melant informatique et le monde de l'automobile. Ce projet réunit deux de mes plus grandes passions.</p>
+          <p>Féru de sport automobile depuis mon plus jeune âge, ce projet mêlant informatique et le monde de l'automobile. Ce projet réunit deux de mes plus grandes passions.</p>
           <p><a className="btn btn-secondary" href="https://www.linkedin.com/in/brice-toffolon/" role="button">En savoir plus</a></p>
           </div>
       </div>
