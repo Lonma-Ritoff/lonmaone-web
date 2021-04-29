@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "Projet Carrera - Voiture autonome par des étudiants",
-    titleTemplate: "%s · Projet Carrera",
+    title: "Projet Carrera | Voiture autonome par des étudiants",
+    titleTemplate: "Projet Carrera | %s",
     description:
       "ProjetCarrera est un projet mené par deux étudiants d'Epitech, passionnés de voitures depuis longtemps. Le but est de réaliser une voiture autonome, basée sur un chassis de modélisme, qui peut éviter des obstacles.",
     url: "https://www.projetcarrera.fr", // No trailing slash allowed!

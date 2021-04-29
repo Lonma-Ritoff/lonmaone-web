@@ -2,6 +2,7 @@ import React from 'react'
 import get from 'lodash/get'
 import Header from '../components/header'
 import SubHeader from '../components/sub-header'
+import SEO from '../components/seo';
 
 class AboutIndex extends React.Component {
   render() {
@@ -14,6 +15,10 @@ class AboutIndex extends React.Component {
           </div>
         </div>
       </Header>
+      <SEO
+      title="A propos"
+      description="Découvrez en plus sur le projet Carrera. La voiture autonome développée par deux étudiants.">
+      </SEO>
       <SubHeader></SubHeader>
       <div>         
           <section id="About" className="content-section">

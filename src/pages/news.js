@@ -6,6 +6,7 @@ import styles from './news.module.css'
 import Header from '../components/Header'
 import ArticlePreview from '../components/article-preview'
 import SubHeader from '../components/sub-header'
+import SEO from '../components/seo';
 import InstagramFeed  from 'react-ig-feed'
 import 'react-ig-feed/dist/index.css'
 
@@ -15,6 +16,10 @@ class BlogIndex extends React.Component {
     return (
       <>
       <Header location={this.props.location}></Header>
+      <SEO
+      title="Actualités"
+      description="Découvrez les dernières mises à jour du projet carrera ! Nous sommes disponibles sur Instagram.">
+      </SEO>
       <SubHeader>
         <div style={{ background: '#fff' }}>
         <section className="content-section">
@@ -30,19 +35,6 @@ class BlogIndex extends React.Component {
             </div>
             <InstagramFeed token={process.env.INSTAGRAM_TOKEN}  counter="6"/>
           </section>
-          {/* <Helmet title={siteTitle} />
-          <div className="wrapper">
-            <h2 className="section-headline">Les dernières nouveautés</h2>
-            <ul className="article-list">
-              {posts.map(({ node }) => {
-                return (
-                  <li key={node.slug}>
-                    <ArticlePreview article={node} />
-                  </li>
-                )
-              })}
-            </ul>
-          </div> */}
         </div>
         </SubHeader>
         </>

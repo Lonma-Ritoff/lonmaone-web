@@ -2,7 +2,7 @@ import React from 'react'
 import get from 'lodash/get'
 import Header from '../components/header'
 import SubHeader from '../components/sub-header'
-
+import SEO from '../components/seo';
 class ContactIndex extends React.Component {
   render() {
     return (
@@ -10,10 +10,14 @@ class ContactIndex extends React.Component {
       <Header location={this.props.location}>
         <div style={{ background: '#fff' }}>
         <div className="wrapper">
-            <h2 className="section-headline">A propos</h2>
+            <h2 className="section-headline">Contacter</h2>
         </div>
         </div>
       </Header>
+      <SEO
+      title="Contacter"
+      description="Une question ? N'hésitez pas, contactez nous dès maintenant !">
+      </SEO>
     <SubHeader></SubHeader>
     <div>
       <section id="About" className="content-section">
