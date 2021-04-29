@@ -1,11 +1,11 @@
 {
-  "name": "contentful-starter-gatsby-blog",
-  "description": "Contentful Gatsby Starter Blog",
+  "name": "projetcarrera-siteweb",
+  "description": "ProjetCarrera est un projet mené par deux étudiants d'Epitech, passionnés de voitures depuis longtemps. Le but est de réaliser une voiture autonome, basée sur un chassis de modélisme, qui peut éviter des obstacles..",
   "private": true,
   "version": "0.0.1",
-  "author": "Contentful <opensource@contentful.com>",
+  "author": "AnthoniMarie <contact@anthoni-marie.fr>",
   "bugs": {
-    "url": "https://github.com/contentful/starter-gatsby-blog/issues"
+    "url": "https://github.com/AnthoniMarie/pi-beautifulporsche-web/issues"
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
@@ -33,7 +33,7 @@
   "engines": {
     "node": ">=10.13.0"
   },
-  "homepage": "https://github.com/contentful/starter-gatsby-blog#readme",
+  "homepage": "https://github.com/AnthoniMarie/pi-beautifulporsche-web/README.md",
   "keywords": [
     "gatsby",
     "contentful",
@@ -41,10 +41,6 @@
   ],
   "license": "MIT",
   "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/contentful/starter-gatsby-blog.git"
-  },
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
