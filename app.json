@@ -1,13 +1,12 @@
 {
-  "name": "Contentful Gatsby Starter",
-  "description": "Gatsby starter for a Contentful project.",
+  "name": "ProjetCarrera - Site web",
+  "description": "ProjetCarrera est un projet mené par deux étudiants d'Epitech, passionnés de voitures depuis longtemps. Le but est de réaliser une voiture autonome, basée sur un chassis de modélisme, qui peut éviter des obstacles..",
   "keywords": [
-    "contentful",
     "gatsby",
     "static",
     "ssg"
   ],
-  "repository": "https://github.com/contentful-userland/gatsby-contentful-starter",
+  "repository": "https://github.com/AnthoniMarie/pi-beautifulporsche-web",
   "success_url": "/",
   "buildpacks": [
     {

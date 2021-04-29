@@ -2,55 +2,18 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const contentfulConfig = {
-  spaceId: process.env.CONTENTFUL_SPACE_ID,
-  accessToken:
-    process.env.CONTENTFUL_ACCESS_TOKEN ||
-    process.env.CONTENTFUL_DELIVERY_TOKEN,
-};
-
-// If you want to use the preview API please define
-// CONTENTFUL_HOST and CONTENTFUL_PREVIEW_ACCESS_TOKEN in your
-// environment config.
-//
-// CONTENTFUL_HOST should map to `preview.contentful.com`
-// CONTENTFUL_PREVIEW_ACCESS_TOKEN should map to your
-// Content Preview API token
-//
-// For more information around the Preview API check out the documentation at
-// https://www.contentful.com/developers/docs/references/content-preview-api/#/reference/spaces/space/get-a-space/console/js
-//
-// To change back to the normal CDA, remove the CONTENTFUL_HOST variable from your environment.
-if (process.env.CONTENTFUL_HOST) {
-  contentfulConfig.host = process.env.CONTENTFUL_HOST;
-  contentfulConfig.accessToken = process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN;
-}
-
-const { spaceId, accessToken } = contentfulConfig;
-
-if (!spaceId || !accessToken) {
-  throw new Error(
-    "Contentful spaceId and the access token need to be provided."
-  );
-}
-
 module.exports = {
   siteMetadata: {
-    title: "Projet Carrera - Voiture autonome par des étudiants",
-    titleTemplate: "%s · Projet Carrera",
+    title: "Projet Carrera | Voiture autonome par des étudiants",
+    titleTemplate: "Projet Carrera | %s",
     description:
       "ProjetCarrera est un projet mené par deux étudiants d'Epitech, passionnés de voitures depuis longtemps. Le but est de réaliser une voiture autonome, basée sur un chassis de modélisme, qui peut éviter des obstacles.",
     url: "https://www.projetcarrera.fr", // No trailing slash allowed!
   },
-  pathPrefix: "/gatsby-contentful-starter",
   plugins: [
     "gatsby-transformer-remark",
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
-    {
-      resolve: "gatsby-source-contentful",
-      options: contentfulConfig,
-    },
   ],
 };

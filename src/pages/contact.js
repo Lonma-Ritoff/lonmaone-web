@@ -2,7 +2,7 @@ import React from 'react'
 import get from 'lodash/get'
 import Header from '../components/header'
 import SubHeader from '../components/sub-header'
-
+import SEO from '../components/seo';
 class ContactIndex extends React.Component {
   render() {
     return (
@@ -10,10 +10,14 @@ class ContactIndex extends React.Component {
       <Header location={this.props.location}>
         <div style={{ background: '#fff' }}>
         <div className="wrapper">
-            <h2 className="section-headline">A propos</h2>
+            <h2 className="section-headline">Contacter</h2>
         </div>
         </div>
       </Header>
+      <SEO
+      title="Contacter"
+      description="Une question ? N'hésitez pas, contactez nous dès maintenant !">
+      </SEO>
     <SubHeader></SubHeader>
     <div>
       <section id="About" className="content-section">
@@ -28,7 +32,7 @@ class ContactIndex extends React.Component {
             </div>
             <div className="row justify-content-md-center text-center">
                 <div className="col">
-                  <img className="rounded mx-auto d-block img-fluid" src="https://res.cloudinary.com/dswcrbbwu/image/upload/v1619685950/projetcarrera.fr/videos/IMG_2499_okybmc.jpg" alt="Anthoni Marie" width="400" height="400" style={{borderRadius:'5%', width:'70%'}}></img>
+                  <img className="rounded mx-auto d-block img-fluid" src="https://res.cloudinary.com/dswcrbbwu/image/upload/v1619695453/projetcarrera.fr/images/IMG_2499_okybmc_xezmat.jpg" alt="Anthoni Marie" width="400" height="400" style={{borderRadius:'5%', width:'70%'}}></img>
                   <br></br>
                   <h4>Où nous trouver ?</h4>
                   <p>Pour les étudiants d'EPITECH, n'hésitez pas à venir découvrir notre voiture directement à EPITECH Paris. Nous sommes en général très souvent au 4ème de Paritalie.</p>

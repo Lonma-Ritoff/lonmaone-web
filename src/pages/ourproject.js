@@ -3,6 +3,7 @@ import get from 'lodash/get'
 import Header from '../components/header'
 import SubHeader from '../components/sub-header'
 import { Card, CardDeck } from 'react-bootstrap';
+import SEO from '../components/seo';
 import { GiBrain, GiSchoolBag, GiStoneCrafting, GiCarWheel } from "react-icons/gi";
 class OurProjectIndex extends React.Component {
   render() {
@@ -16,6 +17,10 @@ class OurProjectIndex extends React.Component {
             </div>
           </div>
         </Header>
+        <SEO
+      title="Le projet"
+      description="ProjetCarrera est un projet mené par deux étudiants d'Epitech, passionnés de voitures depuis longtemps. Le but est de réaliser une voiture autonome, basée sur un chassis de modélisme, qui peut éviter des obstacles.">
+      </SEO>
         <SubHeader></SubHeader>
         <div>         
             <section id="About" class="content-section">
