@@ -35,7 +35,7 @@ class ContactIndex extends React.Component {
                   <img className="rounded mx-auto d-block img-fluid" src="https://res.cloudinary.com/dswcrbbwu/image/upload/v1619695453/projetcarrera.fr/images/IMG_2499_okybmc_xezmat.jpg" alt="Anthoni Marie" width="400" height="400" style={{borderRadius:'5%', width:'70%'}}></img>
                   <br></br>
                   <h4>Où nous trouver ?</h4>
-                  <p>Pour les étudiants d'EPITECH, n'hésitez pas à venir découvrir notre voiture directement à EPITECH Paris. Nous sommes en général très souvent au 4ème de Paritalie.</p>
+                  <p>Pour les étudiants d'EPITECH, n'hésitez pas à venir découvrir notre voiture directement sur le campus d'EPITECH PARIS.</p>
                   <p>Pour d'autres questions, vous pouvez nous contacter par email à <a href="mailto:projetcarrera@anthoni-marie.fr">cette adresse</a>.</p>
                   <p><a className="btn btn-secondary" href="https://anthoni-marie.fr" role="button">En savoir plus</a></p>
                 </div>
