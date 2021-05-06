@@ -20,7 +20,7 @@ class RootIndex extends React.Component {
       description="ProjetCarrera est un projet mené par deux étudiants d'Epitech, passionnés de voitures depuis longtemps. Le but est de réaliser une voiture autonome, basée sur un chassis de modélisme, qui peut éviter des obstacles.">
       </SEO>
       <div className={classes.Container} >
-            <video autoPlay="autoplay" loop="loop" muted className={classes.Video} >
+            <video autoPlay="autoplay" loop="loop" muted className={classes.Video} playsinline>
                 <source src={videoSource} type="video/mp4" />
                 Your browser does not support the video system.
             </video>

@@ -67,7 +67,7 @@ class OurProjectIndex extends React.Component {
               <div class="container">
                 <div class="block-heading">
                   <h2>Le projet, en vrai</h2>
-                  <p>Directement à EPITECH ! (photos...)</p>
+                  <p>Venez le découvrir directement à EPITECH !</p>
                 </div>
               </div>
             </section>
