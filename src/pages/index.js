@@ -10,7 +10,7 @@ import SEO from '../components/seo';
 
 class RootIndex extends React.Component {
   render() {
-    const videoSource = "https://res.cloudinary.com/dswcrbbwu/video/upload/v1619640677/projetcarrera.fr/videos/ProjetCarrera.fr_-_LandingVideo_-_HEVC_-_min_mljgt9.mov"
+    const videoSource = "https://res.cloudinary.com/dswcrbbwu/video/upload/v1620921503/projetcarrera.fr/videos/ProjetCarrera.fr_-_LandingVideo_eiade3.mp4"
     return (
       <>
       <Header location={this.props.location}>
