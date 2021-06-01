@@ -28,7 +28,7 @@ class AboutIndex extends React.Component {
                   <div className="block-heading">
                     <h2>L'équipe</h2>
                   </div>
-                  <p className="lead">L'équipe derrière le projet Carrera.</p>
+                  <p className="lead">L'équipe derrière Lonma-Ritoff.</p>
                 </div>
               </div>
             </div>

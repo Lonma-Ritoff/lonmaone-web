@@ -13,13 +13,13 @@ class OurProjectIndex extends React.Component {
         <Header location={this.props.location}>
           <div style={{ background: '#fff' }}>
             <div className="wrapper">
-              <h2 className="section-headline">Le projet</h2>
+              <h2 className="section-headline">Découvrez LonmaOne</h2>
             </div>
           </div>
         </Header>
         <SEO
-      title="Le projet"
-      description="ProjetCarrera est un projet mené par deux étudiants d'Epitech, passionnés de voitures depuis longtemps. Le but est de réaliser une voiture autonome, basée sur un chassis de modélisme, qui peut éviter des obstacles.">
+      title="Découvrez LonmaOne"
+      description="LonmaOne est un projet mené par deux étudiants d'Epitech, passionnés de voitures depuis longtemps. Le but est de réaliser une voiture autonome, basée sur un chassis de modélisme, qui peut éviter des obstacles.">
       </SEO>
         <SubHeader></SubHeader>
         <div>         
@@ -28,9 +28,9 @@ class OurProjectIndex extends React.Component {
                 <div class="row">
                   <div class="col-lg-12">
                     <div class="block-heading">
-                      <h2>ProjetCarrera</h2>
+                      <h2>LonmaOne</h2>
                     </div>
-                    <p class="lead">Le projet Carrera est un projet mené par deux étudiants d'EPITECH Paris, passionnés d'automobile tous les deux et pour qui le but est de réaliser une voiture autonome, capable de se diriger sans aide humaine et capable d'éviter des obstacles.</p>
+                    <p class="lead">LonmaOne est un projet mené par le groupe Lonma-Ritoff, fondé deux étudiants d'EPITECH Paris, passionnés d'automobile tous les deux et pour qui le but est de réaliser une voiture autonome, capable de se diriger sans aide humaine et capable d'éviter des obstacles.</p>
                   </div>
 
                 <div class="card-deck">
@@ -75,8 +75,7 @@ class OurProjectIndex extends React.Component {
               <div class="container">
                 <div class="block-heading">
                   <h2>Nous aider</h2>
-                  <p>Si vous aussi vous avez des idées qui pourraient améliorer notre voiture, faites nous en part ! Nous sommes à l'écoute.<br></br>Aussi, si vous voulez nous aider, partager notre site internet est déjà un grand plus, mais si vous souhaitez aller plus loin, vous pouvez aussi nous faire un petit don sur notre cagnotte PayPal (oui le projet coûte cher... Brice fait ses comptes tous les jours !!!!!, et son banquier aussi...) </p>
-                  <a href="https://paypal.me/pools/c/8yZZk3V5rY">Lien vers la cagnotte</a>
+                  <p>Si vous aussi vous avez des idées qui pourraient améliorer notre voiture, faites nous en part ! Nous sommes à l'écoute.<br></br>Aussi, si vous voulez nous aider, partager notre site internet est déjà un grand plus ! </p>
                 </div>
               </div>
             </section>

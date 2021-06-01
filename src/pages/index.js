@@ -17,7 +17,7 @@ class RootIndex extends React.Component {
       </Header>
       <SEO
       title="Site web"
-      description="ProjetCarrera est un projet mené par deux étudiants d'Epitech, passionnés de voitures depuis longtemps. Le but est de réaliser une voiture autonome, basée sur un chassis de modélisme, qui peut éviter des obstacles.">
+      description="LonmaOne est un projet mené par le groupe Lonma-Ritoff, fondé par deux étudiants d'Epitech, passionnés de voitures depuis longtemps. Le but est de réaliser une voiture autonome, basée sur un chassis de modélisme, qui peut éviter des obstacles.">
       </SEO>
       <div className={classes.Container} >
             <video autoPlay="autoplay" loop="loop" muted className={classes.Video} playsinline>
@@ -29,7 +29,7 @@ class RootIndex extends React.Component {
         </div>
         <div className={classes.Content}>
                 <div className={classes.SubContent} >
-                    <h1>Projet Carrera</h1>
+                    <h1>LonmaOne</h1><h6>Par le groupe Lonma-Ritoff</h6>
                     <p>Découvrez dès maintenant notre projet de voiture autonome.</p>
                     <a href="/ourproject">
                       <button type="button" className="btn btn-outline-dark">En savoir plus</button>

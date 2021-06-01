@@ -9,7 +9,7 @@ export default ({ children }) => (
                       backgroundSize: 'cover', 
                       backgroundPosition: 'center center',
                       backgroundRepeat: 'no-repeat', position: 'relative'}}>
-        <h1 style={{fontWeight: 'bold', textAlign: 'center', marginBottom: '35px', lineHeight: 6.5, paddingTop: 0, marginTop: 0, color: 'white'}}>Découvrez le projet Carrera, sans plus tarder.</h1>
+        <h1 style={{fontWeight: 'bold', textAlign: 'center', marginBottom: '35px', lineHeight: 6.5, paddingTop: 0, marginTop: 0, color: 'white'}}>Découvrez le projet LonmaOne, sans plus tarder.</h1>
         </div>
         <br></br>
   <div style={{ maxWidth: 1180, margin: '0 auto' }}>{children}</div>

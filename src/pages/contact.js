@@ -36,7 +36,7 @@ class ContactIndex extends React.Component {
                   <br></br>
                   <h4>Où nous trouver ?</h4>
                   <p>Pour les étudiants d'EPITECH, n'hésitez pas à venir découvrir notre voiture directement sur le campus d'EPITECH PARIS.</p>
-                  <p>Pour d'autres questions, vous pouvez nous contacter par email à <a href="mailto:projetcarrera@anthoni-marie.fr">cette adresse</a>.</p>
+                  <p>Pour d'autres questions, vous pouvez nous contacter par email à <a href="mailto:contact@anthoni-marie.fr">cette adresse</a>.</p>
                   <p><a className="btn btn-secondary" href="https://anthoni-marie.fr" role="button">En savoir plus</a></p>
                 </div>
             </div>

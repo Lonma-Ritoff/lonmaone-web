@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 export default () => (
   <>
   <Navbar collapseOnSelect expand="lg" variant="dark" style={{backgroundColor:'#000000'}}>
-  <Navbar.Brand href="/">Projet Carrera</Navbar.Brand>
+  <Navbar.Brand href="/">Groupe Lonma-Ritoff</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
   <Navbar.Collapse id="responsive-navbar-nav">
   <div style={{ maxWidth: 'auto', margin: 'auto 30%' }}>
