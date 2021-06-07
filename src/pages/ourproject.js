@@ -30,7 +30,7 @@ class OurProjectIndex extends React.Component {
                     <div class="block-heading">
                       <h2>LonmaOne</h2>
                     </div>
-                    <p class="lead">LonmaOne est un projet mené par le groupe Lonma-Ritoff, fondé deux étudiants d'EPITECH Paris, passionnés d'automobile tous les deux et pour qui le but est de réaliser une voiture autonome, capable de se diriger sans aide humaine et capable d'éviter des obstacles.</p>
+                    <p class="lead">LonmaOne est un projet mené par le groupe Lonma-Ritoff, fondé par deux étudiants d'EPITECH Paris, passionnés d'automobile tous les deux et pour qui le but est de réaliser une voiture autonome, capable de se diriger sans aide humaine et capable d'éviter des obstacles.</p>
                   </div>
 
                 <div class="card-deck">
@@ -67,7 +67,7 @@ class OurProjectIndex extends React.Component {
               <div class="container">
                 <div class="block-heading">
                   <h2>Le projet, en vrai</h2>
-                  <p>Venez le découvrir directement à EPITECH !</p>
+                  <p>Venez le découvrir directement à EPITECH ! Nous sommes régulièrement sur le campus de Paris.</p>
                 </div>
               </div>
             </section>
@@ -75,7 +75,7 @@ class OurProjectIndex extends React.Component {
               <div class="container">
                 <div class="block-heading">
                   <h2>Nous aider</h2>
-                  <p>Si vous aussi vous avez des idées qui pourraient améliorer notre voiture, faites nous en part ! Nous sommes à l'écoute.<br></br>Aussi, si vous voulez nous aider, partager notre site internet est déjà un grand plus ! </p>
+                  <p>Si vous aussi vous avez des idées qui pourraient améliorer notre voiture, faites nous en part ! Nous sommes à l'écoute.<br></br>Aussi, si vous voulez nous aider encore plus, partager notre site internet est déjà un grand plus ! </p>
                 </div>
               </div>
             </section>

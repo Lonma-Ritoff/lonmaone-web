@@ -29,6 +29,7 @@ class RootIndex extends React.Component {
         </div>
         <div className={classes.Content}>
                 <div className={classes.SubContent} >
+                <img className="img-responsive" src="https://res.cloudinary.com/dswcrbbwu/image/upload/v1623079724/projetcarrera.fr/images/lonma-ritoff-transparent-white_umwqlx.png"></img>
                     <h1>LonmaOne</h1><h6>Par le groupe Lonma-Ritoff</h6>
                     <p>Découvrez dès maintenant notre projet de voiture autonome.</p>
                     <a href="/ourproject">

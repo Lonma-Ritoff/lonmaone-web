@@ -8,6 +8,11 @@
   max-height: 100px;
   font-size: 1.25em;
 }
+  
+.nav_links:hover {
+  background-color:#FF9033!important;
+  color: white!important;
+}
 
 .navigationItem {
   display: inline-flex;
