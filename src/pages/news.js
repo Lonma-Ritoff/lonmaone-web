@@ -29,7 +29,7 @@ class BlogIndex extends React.Component {
                   <div className="block-heading">
                     <h2>Les dernières actualités</h2>
                   </div>
-                  <p className="lead">Restez informés, suivez nous sur Instagram.</p>
+                  <p className="lead">Restez informés, suivez nous sur Instagram (lonmaritoff).</p>
                 </div>
               </div>
             </div>

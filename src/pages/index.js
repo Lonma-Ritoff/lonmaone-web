@@ -19,6 +19,7 @@ class RootIndex extends React.Component {
       title="Site web"
       description="LonmaOne est un projet mené par le groupe Lonma-Ritoff, fondé par deux étudiants d'Epitech, passionnés de voitures depuis longtemps. Le but est de réaliser une voiture autonome, basée sur un chassis de modélisme, qui peut éviter des obstacles.">
       </SEO>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
       <div className={classes.Container} >
             <video autoPlay="autoplay" loop="loop" muted className={classes.Video} playsinline>
                 <source src={videoSource} type="video/mp4" />
@@ -32,6 +33,14 @@ class RootIndex extends React.Component {
                 <img className="img-responsive" src="https://res.cloudinary.com/dswcrbbwu/image/upload/v1623079724/projetcarrera.fr/images/lonma-ritoff-transparent-white_umwqlx.png"></img>
                     <h1>LonmaOne</h1><h6>Par le groupe Lonma-Ritoff</h6>
                     <p>Découvrez dès maintenant notre projet de voiture autonome.</p>
+                    <a href="https://instagram.com/lonmaritoff">
+                      <span style={{fontSize: '4.5rem'}}>
+                          <span style={{color: 'white'}}>
+                              <i class="fab fa-instagram"></i>
+                          </span>
+                      </span>
+                    </a>
+                    <br></br>
                     <a href="/ourproject">
                       <button type="button" className="btn btn-outline-dark">En savoir plus</button>
                     </a>
