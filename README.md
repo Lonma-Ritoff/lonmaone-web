@@ -1,8 +1,7 @@
 # pi-beautifulporsche-web
 
 ![build with Javascript](https://img.shields.io/badge/Build%20with-Javascript-green)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/54432ed6-52be-491e-92ff-a8383c9fa41c/deploy-status)](https://app.netlify.com/sites/projetcarrera/deploys)
-![last commit](https://img.shields.io/github/last-commit/AnthoniMarie/pi-beautifulporsche)
+![last commit](https://img.shields.io/github/last-commit/AnthoniMarie/pi-beautifulporsche-web)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -16,7 +15,7 @@
 
   <p align="center">
     This is the website for our innovative project (pi-beautifulporsche) developed at Epitech.
-    The website is available at https://www.projetcarrera.fr
+    The website is available at https://www.lonma-ritoff.com
 </p>
 
 
