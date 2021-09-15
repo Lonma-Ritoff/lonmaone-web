@@ -1,4 +1,4 @@
-# pi-beautifulporsche-web
+# lonmaone-web
 
 ![build with Javascript](https://img.shields.io/badge/Build%20with-Javascript-green)
 ![last commit](https://img.shields.io/github/last-commit/AnthoniMarie/pi-beautifulporsche-web)
@@ -11,10 +11,10 @@
     <img src="https://avatars.githubusercontent.com/u/57350282?s=400&u=c2755e786dc536ff093a6508ca64f7a9e0bc0ad0&v=4" alt="Logo" width="180" height="180">
   </a>
 
-  <h3 align="center">pi-beautifulporsche-web project</h3>
+  <h3 align="center">lonmaone-web project</h3>
 
   <p align="center">
-    This is the website for our innovative project (pi-beautifulporsche) developed at Epitech.
+    This is the website for our innovative project (lonmaone) developed at Epitech.
     The website is available at https://www.lonma-ritoff.com
 </p>
 
@@ -23,4 +23,4 @@
 
 # Goal of the project
 
-Take a look at our main repository https://github.com/AnthoniMarie/pi-beautifulporsche
+Make a web site for our lonma one project
