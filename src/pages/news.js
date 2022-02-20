@@ -7,7 +7,7 @@ import Header from '../components/Header'
 import ArticlePreview from '../components/article-preview'
 import SubHeader from '../components/sub-header'
 import SEO from '../components/seo';
-import InstagramFeed  from 'react-ig-feed'
+//import InstagramFeed  from 'react-ig-feed'
 import 'react-ig-feed/dist/index.css'
 
 class BlogIndex extends React.Component {
@@ -22,7 +22,7 @@ class BlogIndex extends React.Component {
       </SEO>
       <SubHeader>
         <div style={{ background: '#fff' }}>
-        <section className="content-section">
+            <section className="content-section">
             <div className="container text-center">
               <div className="row">
                 <div className="col-lg-12">
@@ -33,7 +33,7 @@ class BlogIndex extends React.Component {
                 </div>
               </div>
             </div>
-            <InstagramFeed token={process.env.INSTAGRAM_TOKEN}  counter="6"/>
+            {/*<InstagramFeed token={process.env.INSTAGRAM_TOKEN}  counter="6"/>*/}
           </section>
         </div>
         </SubHeader>

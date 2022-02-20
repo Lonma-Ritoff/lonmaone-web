@@ -14,7 +14,7 @@ export default () => (
     <Nav className="mr-auto" style={{textAlign: 'center', textTransform: 'uppercase', fontSize: '14px'}}>
       <Nav.Link href="/" className={nav_links}>Accueil</Nav.Link>
       <Nav.Link href="/ourproject" className={nav_links}>Le projet</Nav.Link>
-      <Nav.Link href="/news" className={nav_links}>Actu</Nav.Link>
+      {/*<Nav.Link href="/news" className={nav_links}>Actu</Nav.Link>*/}
       <Nav.Link href="/about" className={nav_links}>A propos</Nav.Link>
       <Nav.Link href="/contact" className={nav_links}>Contacter</Nav.Link>
     </Nav>
