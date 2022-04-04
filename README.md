@@ -1,7 +1,7 @@
 # lonmaone-web
 
 ![build with Javascript](https://img.shields.io/badge/Build%20with-Javascript-green)
-![last commit](https://img.shields.io/github/last-commit/AnthoniMarie/pi-beautifulporsche-web)
+![last commit](https://img.shields.io/github/last-commit/Lonma-Ritoff/lonmaone-web)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -23,4 +23,4 @@
 
 # Goal of the project
 
-Make a web site for our lonma one project
+Made by Anthoni Marie in order to present our project to everyone on the web and easily know what are our goals.
